@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>C0mFy C4F3</title>
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/slider_styles.css" />
+    <script type="text/javascript" src="volumeSliderControls.js"></script>
+  </head>
+  <body>
+    <div class="title-container1">
+      <h1 class="title">
+        Welcome (back) to
+      </h1>
+      <img
+        src="https://cdn.glitch.com/e420646a-22a1-40c1-bea8-b333fe7291ad%2FUntitled_Artwork%2014.png?v=1632780235151"
+        alt="Logo"
+        width="150x"
+      />
+      <h2 class="header-description">
+        It's been a long time
+      </h2>
+    </div>
+    <div class="image_container_1">
+      <div class="text">
+        <p>
+          Take a seat, you come just in time. Here's some music for you.
+        </p>
+      </div>
+
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/BUbSpHCVK0Q?autoplay=1&mute=1"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <br /><br /><br />
+    <div class="text">
+      <p>
+        Check out our menu here.
+      </p>
+    </div>
+    <div class="menu">
+      
+    <img
+      src="https://cdn.glitch.com/e420646a-22a1-40c1-bea8-b333fe7291ad%2FUntitled_Artwork%2015.png?v=1632780919462"
+      width="500px"
+    />
+    </div>
+    <br>
+    <div class="Volume_slider">
+      Move the button to adjust the cafe background sound here.
+    </div>
+    <br /> 
+    <div>
+      <audio> 
+        <source
+        src="https://cdn.glitch.com/e420646a-22a1-40c1-bea8-b333fe7291ad%2FASMR%20Cafe%20White%20noise%20no%20talking%20(Starbucks%20in%20Vancouver%20_%20%E1%84%87%E1%85%A2%E1%86%A8%E1%84%89%E1%85%A2%E1%86%A8%20%E1%84%89%E1%85%A9%E1%84%8B%E1%85%B3%E1%86%B7%2C%20%E1%84%8C%E1%85%B5%E1%86%B8%E1%84%8C%E1%85%AE%E1%86%BC%E1%84%85%E1%85%A7%E1%86%A8).mp3?v=1632776312007"
+        type="audio/mpeg"/>
+        Your browser does not support the audio tag.
+      </audio>
+ 
+      <div class="slidecontainer">
+        <input
+          type="range"
+          id="vol"
+          max="1"
+          min="0"
+          value="0"
+          step="0.01"
+          class="slider"
+          id="myRange"
+          onchange="changevolume(this.value)"
+          on
+        />
+      </div>
+    </div>
+  </body>
+</html>
